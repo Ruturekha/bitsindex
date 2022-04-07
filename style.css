@@ -1,0 +1,238 @@
+#heading {
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 5em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #FFAC1C, #fff, #FFAC1C);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 5s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+
+.card {
+    margin: auto;
+    border: solid 1px #dbdad7;
+    width: 60%;
+    padding-left: 10px !important;
+    padding-bottom: 10px !important;
+    padding-right: 10px !important;
+    padding-top: 0px !important
+}
+
+.card-title {
+    margin: auto;
+    padding: 15px;
+    background-color: #2f7fad;
+    color: white;
+    width: 80%
+}
+
+div.card-body {
+    padding: 0px
+}
+
+.custom-select {
+    width: 100%
+}
+
+.btn2 {
+    margin-left: 10%
+}
+
+input {
+    outline: 0 !important;
+    border-width: 0 0 2px !important;
+    border-color: #d1d1cf !important
+}
+
+input:focus {
+    border-color: #d1d1cf !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important
+}
+
+select {
+    outline: 0 !important;
+    border-width: 0 0 2px !important;
+    border-color: #d1d1cf !important
+}
+
+select:focus {
+    border-color: #d1d1cf !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important
+}
+
+.radiobtn {
+    margin-left: 3.5%
+}
+
+.icons {
+    margin: auto !important
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .card {
+        margin: auto;
+        border: solid 1px #dbdad7;
+        width: 90%;
+        padding-left: 10px !important;
+        padding-bottom: 10px !important;
+        padding-right: 10px !important;
+        padding-top: 0px !important
+    }
+
+    .fa {
+        border-radius: 25px;
+        width: 15%;
+        margin-left: 5%;
+        border: solid 2px #dbdad7;
+        margin-top: 5%;
+        text-align: center
+    }
+}
+
+#border{
+  /*border: 1px solid;*/
+    border-radius: 50%;
+    height: 150px;
+    /*width: 150px;*/
+    padding-top: 20px;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    background: linear-gradient(to bottom, #ffeb3b 0%, #ff9800 100%);
+}
+
+
+.header-body1 td{
+                width: 25%;
+                height: 280px;
+                }
+.header-body1{
+    text-align: center;
+}
+
+
+.hide {
+  display: none;
+}
+    
+.myDIV:hover + .hide {
+  display: block;
+  color: red;
+}
+
+.myDIV p{
+  color: #fff;
+  font-weight: 600;
+}
+
+
+#button-62 {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  /*width: 60px;*/
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+
+#button-62:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+
+
+
+.header-body2 td{
+                width: 33.3%;
+                height: 220px;
+                }
+.header-body2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#img{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  /*margin-top: -10px;*/
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border: 2px solid coral;
+  animation: mymove 5s infinite;
+
+}
+
+@keyframes mymove {
+  10% {border-color: lightgreen;}
+  20% {border-color: orange;}
+  30% {border-color: cyan;}
+  40% {border-color: yellow;}
+  50% {border-color: lightblue;}
+}
+
+
+/*.header-body3 td{
+                width: 50%;
+                height: 320px;
+                }
+.header-body3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+*/
+
+#footer{
+  background: linear-gradient(
+90deg
+, #d6ae6a, #a07373, #fd861e);
+  
+}
+
+.header {
+  background-color:;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  padding: 15px;
+  height: 40px;
+
+}
+
+.header-body2 td{
+  width: 25%;
+                
+}
+
